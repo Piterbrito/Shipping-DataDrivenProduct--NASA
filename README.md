@@ -1,3 +1,3 @@
 # Shipping-Data-Product-Web-based
 
-![x]("static/img/home.png")
+![x]("flask_app/static/img/home.png")
