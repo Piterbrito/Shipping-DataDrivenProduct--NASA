@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    fill: rgb(231, 221, 221);  
+}
+ 
+th {
+    color: rgb(204, 198, 198);
+    text: rgb(204, 198, 198);
+}
+tr{
+    color: rgb(204, 198, 198);
+    text: rgb(204, 198, 198);
+}
+
+h2 {
+    color: rgb(204, 198, 198);
+} 
+
+h4 {
+    color: rgb(204, 198, 198)
+} 
+
+text {
+    color: rgb(204, 198, 198);
+}
+
+
+#mars-facts {
+    background-color:  rgb(231, 221, 221),
+}
+
+.table.table-striped {
+    background-color: rgb(231, 221, 221)
+}
+
+.dataframe table table{
+    background-color:  rgb(231, 221, 221)
+
+}

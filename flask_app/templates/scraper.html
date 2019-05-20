@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mission to Mars</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel = "stylesheet" href = "{{ url_for('static', filename='css/dc.css') }}">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel = "stylesheet" href = "{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="/">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="/dashboard">Dashboard</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/scraper">Scraper</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            API
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="/api/news">News data</a>
+              <a class="dropdown-item" href="/api/facts">Facts data</a>
+              <a class="dropdown-item" href="/api/weather">Weather data</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+</nav>
+
+    <div class="container-fluid mt-2 mb-2">
+      <h4 class='text-center text-info text-uppercase'>The Newest stuff coming from out of the Earth</h4>
+    </div>
+    <div class="container">
+        <div class="container-fluid mt-2 mb-2">
+            <div class="jumbotron text-center">
+                <h1>Click Here to Web-Scrape Mars</h1>
+                <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Scrape New Data</a></p>
+                <h3>After Click, your Browser will open a web site autommatic and scrape the Data. You must wait the Browser close.. before dong any action </h3>
+
+              </div>
+          </div>
+
+    </div> 
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
