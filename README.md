@@ -73,4 +73,4 @@ You are now in the dev environment and you can play around
 
 
 
-![x]("flask_app/static/img/home.png")
+![x]('flask_app/static/img/home.png')
