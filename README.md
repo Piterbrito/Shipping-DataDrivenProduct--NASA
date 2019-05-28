@@ -11,9 +11,9 @@ Build a Web based product, challenge will be putting together a multiple variety
 
 # Scope 
   
-  *Reverse Engineering the target (web-page), find out the <tags> and subcategories.
-  *Build the script using Python and Beautiful soap to scrape the data.
-  *Uncover patterns in the target(web-page) in order to Automate the script using Functions.
+  *Reverse Engineering the target (web-page), find out the <tags> and subcategories;
+  *Build the script using Python and Beautiful soap to scrape the data  
+  *Uncover patterns in the target(web-page) in order to Automate the script using Functions<br/>
   
   #Parse the data into Data Frame, clean unwanted characters and formatting using Pandas.
   #Storage it into Database
