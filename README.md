@@ -2,8 +2,7 @@
 
 Link:  https://contentmars.herokuapp.com/
 
-![x]("flask_app/static/img/home.png")
-![x]('home.png')
+![x](home.png)
 
 
 # Background
