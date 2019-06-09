@@ -4,6 +4,18 @@ Link:  https://contentmars.herokuapp.com/
 
 ![x](home.png)
 
+![x](images/api.png)
+
+
+![x](images/news.png)
+
+
+![x](images/weather.png)
+
+
+![x](images/scrape.png)
+
+
 
 # Background
 
